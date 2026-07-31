@@ -1,0 +1,23 @@
+{
+  "name": "kondwani",
+  "version": "0.1.0",
+  "description": "Identify, assess and mitigate project risks",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "keywords": [
+    "risk-management",
+    "project-management",
+    "collaboration"
+  ],
+  "author": "coleworx",
+  "license": "MIT"
+}
