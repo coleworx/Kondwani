@@ -1,31 +1,24 @@
 # Dependencies
 node_modules/
-.pnp
+/.pnp
 .pnp.js
-
-# Testing
-.coverage/
-
-# Production
-build/
-dist/
-.next/
-out/
-
-# Misc
-.DS_Store
-*.pem
 
 # Environment variables
 .env
 .env.local
 .env.*.local
 
+# Build outputs
+/dist
+/build
+
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+.DS_Store
 
 # Logs
 logs/
