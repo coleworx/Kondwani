@@ -1,14 +1,23 @@
 {
-  "name": "kondwani-monorepo",
-  "version": "1.0.0",
-  "description": "Risk Management System - Monorepo",
+  "name": "kondwani",
+  "version": "0.1.0",
+  "description": "Identify, assess and mitigate project risks",
   "private": true,
   "workspaces": [
-    "apps/*"
+    "frontend",
+    "backend"
   ],
   "scripts": {
-    "dev": "npm run dev --workspace=apps/backend & npm run dev --workspace=apps/frontend",
+    "dev": "npm run dev --workspaces --parallel",
     "build": "npm run build --workspaces",
-    "test": "npm test --workspaces"
-  }
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "keywords": [
+    "risk-management",
+    "project-management",
+    "collaboration"
+  ],
+  "author": "coleworx",
+  "license": "MIT"
 }
